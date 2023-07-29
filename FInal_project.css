@@ -1,0 +1,88 @@
+
+h1{
+    font-size: 130px;
+    text-align: center;
+    color:black;
+    background-image: url(Home.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height:300px;
+    Width:100%;
+}
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color:Black;
+    
+  }
+  .h3{
+    font-size: 15px;
+    text-align: center;
+    color:Black;
+}
+.grid_container{
+
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "b c d ";
+   
+}
+
+.one {
+    background-color: lightblue;
+    text-align: justify;
+    grid-area: b;
+    text-align: center;
+    
+  }
+  .p{
+    width: 90%;
+  }
+  .two {
+    background-color:lightskyblue;
+    text-align: justify;
+    grid-area: c;
+    text-align: center;
+  }
+  .three {
+    background-color:rgb(219, 233, 143);
+    text-align: justify;
+    grid-area: d;
+    text-align: center;
+  }
+
+
+  .container {
+    background-color:rgba(217, 248, 219, 0.952);
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.homeimage{
+    display: flex;
+    justify-content: center;
+      }
+
+ 
+  .container__image {
+      display: inline-block;
+      text-align:center;
+      width: 46%;
+      margin: 20px 0 20px auto;
+    }
+
+   .container__text{
+      display: inline-block;
+      vertical-align: top;
+      width: 46%;
+   }
+
+  
